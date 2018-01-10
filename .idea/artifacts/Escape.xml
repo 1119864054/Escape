@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact build-on-make="true" name="Escape">
+    <output-path>$PROJECT_DIR$/out/artifacts/Escape</output-path>
+    <root id="root">
+      <element id="archive" name="Escape.jar">
+        <element id="module-output" name="Escape" />
+      </element>
+    </root>
+  </artifact>
+</component>
