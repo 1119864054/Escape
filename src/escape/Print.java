@@ -18,6 +18,6 @@ public class Print {
         }
         
         System.out.printf("\n");
-        Thread.sleep(1600);
+        Thread.sleep(1000);
     }
 }

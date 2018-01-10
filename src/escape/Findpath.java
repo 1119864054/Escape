@@ -32,6 +32,7 @@ public class Findpath {
 
             while (!U.isEmpty()) {
                 here = U.poll();
+                if(gridmap[here.getRow()][here.getCol()]!='!')gridmap[here.getRow()][here.getCol()] = '.';
                 for (int i = 0; i < numOfNbrs; i++) {
                     nbr.setRow(here.getRow() + offset[i].getRow());
                     nbr.setCol(here.getCol() + offset[i].getCol());
@@ -77,6 +78,7 @@ public class Findpath {
 
             while (!Q.isEmpty()) {
                 here = Q.poll();
+                if(gridmap[here.getRow()][here.getCol()]!='!')gridmap[here.getRow()][here.getCol()] = '.';
                 for (int i = 0; i < numOfNbrs; i++) {
                     nbr.setRow(here.getRow() + offset[i].getRow());
                     nbr.setCol(here.getCol() + offset[i].getCol());

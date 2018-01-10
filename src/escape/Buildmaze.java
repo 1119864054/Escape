@@ -57,18 +57,29 @@ public class Buildmaze {
         while (true) {
             int sRow = Math.abs(r.nextInt()) % n;
             int sCol = Math.abs(r.nextInt()) % m;
+            int fRow = Math.abs(r.nextInt()) % n;
+            int fCol = Math.abs(r.nextInt()) % m;
             if (sRow == 0) sRow++;
             if (sCol == 0) sCol++;
+            if (fRow == 0) fRow++;
+            if (fCol == 0) fCol++;
             if (n == 2 && m == 2) {
                 sRow = 1;
                 sCol = 2;
+                fRow = 2;
+                fCol = 2;
             }
-            if ((sRow == n && sCol == m) || (sRow == magma.getRow() && sCol == magma.getCol()))
+            if ((sRow == fRow && sCol == fCol) || (sRow == magma.getRow() && sCol == magma.getCol()) || (fRow == magma.getRow() && fCol == magma.getCol()))
                 continue;
             else {
                 start.setRow(sRow);
                 start.setCol(sCol);
+                grid[start.getRow()][start.getCol()] = 0;
                 gridmap[start.getRow()][start.getCol()] = 'S';
+                finish.setRow(fRow);
+                finish.setCol(fCol);
+                grid[finish.getRow()][finish.getCol()] = -1;
+                gridmap[finish.getRow()][finish.getCol()] = 'E';
                 break;
             }
         }
@@ -84,7 +95,7 @@ public class Buildmaze {
                 mRow = 1;
                 mCol = 1;
             }
-            if ((mRow == n && mCol == m) || (mRow == start.getRow() && mCol == start.getCol()))
+            if ((mRow == finish.getRow() && mCol == finish.getCol()) || (mRow == start.getRow() && mCol == start.getCol()))
                 continue;
             else {
                 magma.setRow(mRow);
@@ -98,9 +109,5 @@ public class Buildmaze {
                 source--;
             }
         }
-
-        finish.setRow(n);
-        finish.setCol(m);
-        gridmap[finish.getRow()][finish.getCol()] = 'E';
     }
 }
