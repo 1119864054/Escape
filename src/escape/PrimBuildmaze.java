@@ -18,7 +18,7 @@ public class PrimBuildmaze {
         left = false;
     }
 
-    /***********利用随机Prim算法产生迷宫，算是自己额外添加的功能**************/
+    /***********利用随机生成树产生迷宫，算是自己额外添加的功能**************/
     void prim() {
         height = n;
         width = m;

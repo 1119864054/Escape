@@ -7,13 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13c4809e-130b-495b-993a-2b2f2d74bd55" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/escape/Buildmaze.java" afterPath="$PROJECT_DIR$/src/escape/Buildmaze.java" />
-      <change beforePath="$PROJECT_DIR$/src/escape/Escape.java" afterPath="$PROJECT_DIR$/src/escape/Escape.java" />
-      <change beforePath="$PROJECT_DIR$/src/escape/Findpath.java" afterPath="$PROJECT_DIR$/src/escape/Findpath.java" />
-      <change beforePath="$PROJECT_DIR$/src/escape/Position.java" afterPath="$PROJECT_DIR$/src/escape/Position.java" />
       <change beforePath="$PROJECT_DIR$/src/escape/PrimBuildmaze.java" afterPath="$PROJECT_DIR$/src/escape/PrimBuildmaze.java" />
-      <change beforePath="$PROJECT_DIR$/src/escape/Print.java" afterPath="$PROJECT_DIR$/src/escape/Print.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,18 +26,18 @@
       <file leaf-file-name="Escape.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/escape/Escape.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="651">
-              <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+            <state relative-caret-position="231">
+              <caret line="11" column="30" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="31" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Buildmaze.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Buildmaze.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/escape/Buildmaze.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="601">
-              <caret line="130" column="46" lean-forward="true" selection-start-line="130" selection-start-column="46" selection-end-line="130" selection-end-column="46" />
+            <state relative-caret-position="504">
+              <caret line="72" column="33" lean-forward="false" selection-start-line="72" selection-start-column="33" selection-end-line="72" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -53,8 +48,8 @@
       <file leaf-file-name="PrimBuildmaze.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/escape/PrimBuildmaze.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="20" column="57" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="57" />
+            <state relative-caret-position="403">
+              <caret line="20" column="23" lean-forward="false" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -62,11 +57,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Findpath.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Findpath.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/escape/Findpath.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="16" column="28" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="129" selection-end-column="1" />
+            <state relative-caret-position="273">
+              <caret line="13" column="37" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="129" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -93,11 +88,11 @@
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <marker date="1515652073835" expanded="true" signature="0:104" ph="/.../" />
-                <marker date="1515652073835" expanded="false" signature="130:173" ph="..." />
-                <marker date="1515652073835" expanded="true" signature="223:230" ph="{}" />
-                <marker date="1515652073835" expanded="true" signature="256:10452" ph="{...}" />
-                <marker date="1515652073835" expanded="true" signature="10436:10452" ph="{...}" />
+                <marker date="1515654597197" expanded="true" signature="0:104" ph="/.../" />
+                <marker date="1515654597197" expanded="false" signature="130:173" ph="..." />
+                <marker date="1515654597197" expanded="true" signature="223:230" ph="{}" />
+                <marker date="1515654597197" expanded="true" signature="256:10452" ph="{...}" />
+                <marker date="1515654597197" expanded="true" signature="10436:10452" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -120,8 +115,8 @@
       <file leaf-file-name="Print.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/escape/Print.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+            <state relative-caret-position="273">
+              <caret line="13" column="19" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="26" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -132,8 +127,8 @@
       <file leaf-file-name="Position.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/escape/Position.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state relative-caret-position="126">
+              <caret line="6" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -188,10 +183,10 @@
         <option value="$PROJECT_DIR$/src/escape/CLS.java" />
         <option value="$PROJECT_DIR$/src/escape/Position.java" />
         <option value="$PROJECT_DIR$/src/escape/Escape.java" />
-        <option value="$PROJECT_DIR$/src/escape/Buildmaze.java" />
         <option value="$PROJECT_DIR$/src/escape/Findpath.java" />
-        <option value="$PROJECT_DIR$/src/escape/PrimBuildmaze.java" />
         <option value="$PROJECT_DIR$/src/escape/Print.java" />
+        <option value="$PROJECT_DIR$/src/escape/PrimBuildmaze.java" />
+        <option value="$PROJECT_DIR$/src/escape/Buildmaze.java" />
       </list>
     </option>
   </component>
@@ -202,8 +197,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="534" />
-    <option name="y" value="45" />
+    <option name="x" value="120" />
+    <option name="y" value="52" />
     <option name="width" value="1679" />
     <option name="height" value="1038" />
   </component>
@@ -280,7 +275,7 @@
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH" value="290" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
@@ -473,12 +468,12 @@
       <workItem from="1515572390792" duration="2720000" />
       <workItem from="1515588505113" duration="13000" />
       <workItem from="1515629977811" duration="9073000" />
-      <workItem from="1515650604601" duration="1705000" />
+      <workItem from="1515650604601" duration="3811000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70432000" />
+    <option name="totallyTimeSpent" value="72538000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -490,7 +485,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="534" y="45" width="1679" height="1038" extended-state="0" />
+    <frame x="120" y="52" width="1679" height="1038" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -868,29 +863,29 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1515652073835" expanded="true" signature="0:104" ph="/.../" />
-            <marker date="1515652073835" expanded="false" signature="130:173" ph="..." />
-            <marker date="1515652073835" expanded="true" signature="223:230" ph="{}" />
-            <marker date="1515652073835" expanded="true" signature="256:10452" ph="{...}" />
-            <marker date="1515652073835" expanded="true" signature="10436:10452" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/escape/PrimBuildmaze.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="20" column="57" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <marker date="1515654597197" expanded="true" signature="0:104" ph="/.../" />
+            <marker date="1515654597197" expanded="false" signature="130:173" ph="..." />
+            <marker date="1515654597197" expanded="true" signature="223:230" ph="{}" />
+            <marker date="1515654597197" expanded="true" signature="256:10452" ph="{...}" />
+            <marker date="1515654597197" expanded="true" signature="10436:10452" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/escape/Print.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        <state relative-caret-position="273">
+          <caret line="13" column="19" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="26" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/escape/PrimBuildmaze.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="20" column="23" lean-forward="false" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -899,35 +894,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/escape/Position.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state relative-caret-position="126">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/escape/Findpath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="37" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="129" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/escape/Escape.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+        <state relative-caret-position="231">
+          <caret line="11" column="30" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="31" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/escape/Buildmaze.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="601">
-          <caret line="130" column="46" lean-forward="true" selection-start-line="130" selection-start-column="46" selection-end-line="130" selection-end-column="46" />
+        <state relative-caret-position="504">
+          <caret line="72" column="33" lean-forward="false" selection-start-line="72" selection-start-column="33" selection-end-line="72" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/escape/Findpath.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="28" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="129" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>

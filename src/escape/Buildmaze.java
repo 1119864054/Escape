@@ -70,7 +70,7 @@ public class Buildmaze {
             }
         } else {
             PrimBuildmaze prim = new PrimBuildmaze();
-            prim.prim();//利用随机Prim算法产生迷宫，算是自己额外添加的功能
+            prim.prim();//利用随机生成树产生迷宫，算是自己额外添加的功能
         }
 
         /***********'S'代表起点，'E'代表终点**************/
