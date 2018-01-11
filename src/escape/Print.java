@@ -16,8 +16,8 @@ public class Print {
             }
             System.out.printf("\n");
         }
-        
+
         System.out.printf("\n");
-        Thread.sleep(1000);
+        Thread.sleep(800);
     }
 }

@@ -3,6 +3,7 @@ package escape;
 public class Position {
     int row = 1;
     int col = 1;
+    int state;
 
     public int getRow() {
         return row;

@@ -8,15 +8,15 @@ public class Buildmaze {
     void buildthemaze() {
         System.out.printf("输入方格行数：");
         Scanner scanner = new Scanner(System.in);
-        while (true){
+        while (true) {
             n = scanner.nextInt();
-            if(n>1)break;
+            if (n > 1) break;
             else System.out.printf("请输入大于1的正整数：");
         }
         System.out.printf("输入方格列数：");
-        while (true){
+        while (true) {
             m = scanner.nextInt();
-            if(m>1)break;
+            if (m > 1) break;
             else System.out.printf("请输入大于1的正整数：");
         }
 
@@ -40,18 +40,23 @@ public class Buildmaze {
         }
 
         java.util.Random r = new java.util.Random();
-        int wall = n + Math.abs(r.nextInt()) % ((n + m) * 2);
-        while (wall != 0) {
-            int a, b;
-            a = Math.abs(r.nextInt()) % n;
-            b = Math.abs(r.nextInt()) % m;
-            if (a == 0) a++;
-            if (b == 0) b++;
-            if (a == 0 && b == 0)
-                break;
-            grid[a][b] = -2;
-            gridmap[a][b] = '#';
-            wall--;
+        if (n <= 4 && m <= 4) {
+            int wall = Math.abs(r.nextInt()) % (n + m);
+            while (wall != 0) {
+                int a, b;
+                a = Math.abs(r.nextInt()) % n;
+                b = Math.abs(r.nextInt()) % m;
+                if (a == 0) a++;
+                if (b == 0) b++;
+                if (a == 0 && b == 0)
+                    break;
+                grid[a][b] = -2;
+                gridmap[a][b] = '#';
+                wall--;
+            }
+        } else {
+            PrimBuildmaze prim = new PrimBuildmaze();
+            prim.prim();
         }
 
         while (true) {
@@ -68,8 +73,12 @@ public class Buildmaze {
                 sCol = 2;
                 fRow = 2;
                 fCol = 2;
+                gridmap[sRow][sCol] = 'S';
+                gridmap[fRow][fCol] = 'E';
             }
             if ((sRow == fRow && sCol == fCol) || (sRow == magma.getRow() && sCol == magma.getCol()) || (fRow == magma.getRow() && fCol == magma.getCol()))
+                continue;
+            if ((gridmap[sRow][sCol] == '#') || (gridmap[fRow][fCol] == '#'))
                 continue;
             else {
                 start.setRow(sRow);

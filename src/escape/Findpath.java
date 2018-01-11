@@ -32,14 +32,14 @@ public class Findpath {
 
             while (!U.isEmpty()) {
                 here = U.poll();
-                if(gridmap[here.getRow()][here.getCol()]!='!')gridmap[here.getRow()][here.getCol()] = '.';
+                if (gridmap[here.getRow()][here.getCol()] != '!') gridmap[here.getRow()][here.getCol()] = 'X';
                 for (int i = 0; i < numOfNbrs; i++) {
                     nbr.setRow(here.getRow() + offset[i].getRow());
                     nbr.setCol(here.getCol() + offset[i].getCol());
                     if (grid[nbr.getRow()][nbr.getCol()] == -1) {
-                        if(gridmap[here.getRow()][here.getCol()]=='!')continue;
+                        if (gridmap[here.getRow()][here.getCol()] == '!') continue;
                         grid[nbr.getRow()][nbr.getCol()] = grid[here.getRow()][here.getCol()] + 1;
-                        if(gridmap[nbr.getRow()][nbr.getCol()] == 'E')
+                        if (gridmap[nbr.getRow()][nbr.getCol()] == 'E')
                             return true;
                         else
                             gridmap[nbr.getRow()][nbr.getCol()] = 'S';
@@ -62,7 +62,7 @@ public class Findpath {
                     flow.setCol(magma.getCol() + offset[i].getCol());
                     if (grid[flow.getRow()][flow.getCol()] >= -1) {
                         grid[flow.getRow()][flow.getCol()] = -2;
-                        if(gridmap[flow.getRow()][flow.getCol()] == 'E')
+                        if (gridmap[flow.getRow()][flow.getCol()] == 'E')
                             return false;
                         else
                             gridmap[flow.getRow()][flow.getCol()] = '!';
@@ -78,14 +78,14 @@ public class Findpath {
 
             while (!Q.isEmpty()) {
                 here = Q.poll();
-                if(gridmap[here.getRow()][here.getCol()]!='!')gridmap[here.getRow()][here.getCol()] = '.';
+                if (gridmap[here.getRow()][here.getCol()] != '!') gridmap[here.getRow()][here.getCol()] = 'X';
                 for (int i = 0; i < numOfNbrs; i++) {
                     nbr.setRow(here.getRow() + offset[i].getRow());
                     nbr.setCol(here.getCol() + offset[i].getCol());
                     if (grid[nbr.getRow()][nbr.getCol()] == -1) {
-                        if(gridmap[here.getRow()][here.getCol()]=='!')continue;
+                        if (gridmap[here.getRow()][here.getCol()] == '!') continue;
                         grid[nbr.getRow()][nbr.getCol()] = grid[here.getRow()][here.getCol()] + 1;
-                        if(gridmap[nbr.getRow()][nbr.getCol()] == 'E')
+                        if (gridmap[nbr.getRow()][nbr.getCol()] == 'E')
                             return true;
                         else
                             gridmap[nbr.getRow()][nbr.getCol()] = 'S';
@@ -108,7 +108,7 @@ public class Findpath {
                     flow.setCol(magma.getCol() + offset[i].getCol());
                     if (grid[flow.getRow()][flow.getCol()] >= -1) {
                         grid[flow.getRow()][flow.getCol()] = -2;
-                        if(gridmap[flow.getRow()][flow.getCol()] == 'E')
+                        if (gridmap[flow.getRow()][flow.getCol()] == 'E')
                             return false;
                         else
                             gridmap[flow.getRow()][flow.getCol()] = '!';
