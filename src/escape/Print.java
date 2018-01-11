@@ -18,6 +18,9 @@ public class Print {
         }
 
         System.out.printf("\n");
-        Thread.sleep(800);
+        if(n*m>400)
+            Thread.sleep(300);
+        else
+            Thread.sleep(800);
     }
 }

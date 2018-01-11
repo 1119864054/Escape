@@ -9,15 +9,26 @@ public class Buildmaze {
         System.out.printf("输入方格行数：");
         Scanner scanner = new Scanner(System.in);
         while (true) {
-            n = scanner.nextInt();
-            if (n > 1) break;
-            else System.out.printf("请输入大于1的正整数：");
+            String s = scanner.nextLine();
+            if (s.matches("\\d+")) {
+                n = Integer.parseInt(s);
+                if (n > 1 && n < 1000) break;
+                else System.out.printf("请输入大于1小于1000的整数：");
+            } else {
+                System.out.printf("请输入数字：");
+            }
+
         }
         System.out.printf("输入方格列数：");
         while (true) {
-            m = scanner.nextInt();
-            if (m > 1) break;
-            else System.out.printf("请输入大于1的正整数：");
+            String s = scanner.nextLine();
+            if (s.matches("\\d+")) {
+                m = Integer.parseInt(s);
+                if (m > 1 && m < 1000) break;
+                else System.out.printf("请输入大于1小于1000的整数：");
+            } else {
+                System.out.printf("请输入数字：");
+            }
         }
 
         for (char[] ignored : gridmap = new char[n + 2][m + 2]) {

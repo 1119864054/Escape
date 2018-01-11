@@ -7,11 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13c4809e-130b-495b-993a-2b2f2d74bd55" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/escape/PrimBuildmaze.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/escape/Buildmaze.java" afterPath="$PROJECT_DIR$/src/escape/Buildmaze.java" />
-      <change beforePath="$PROJECT_DIR$/src/escape/Findpath.java" afterPath="$PROJECT_DIR$/src/escape/Findpath.java" />
-      <change beforePath="$PROJECT_DIR$/src/escape/Position.java" afterPath="$PROJECT_DIR$/src/escape/Position.java" />
       <change beforePath="$PROJECT_DIR$/src/escape/Print.java" afterPath="$PROJECT_DIR$/src/escape/Print.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -42,11 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Buildmaze.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Buildmaze.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/escape/Buildmaze.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="48" column="32" lean-forward="false" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="32" />
+            <state relative-caret-position="252">
+              <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -97,10 +93,9 @@
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <marker date="1515632292249" expanded="true" signature="0:104" ph="/.../" />
-                <marker date="1515632292249" expanded="false" signature="130:173" ph="..." />
-                <marker date="1515632292249" expanded="true" signature="223:230" ph="{}" />
-                <marker date="1515632292249" expanded="true" signature="256:7799" ph="{...}" />
+                <marker date="1515634242074" expanded="true" signature="0:104" ph="/.../" />
+                <marker date="1515634242074" expanded="false" signature="130:140" ph="..." />
+                <marker date="1515634242074" expanded="true" signature="10436:10452" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -112,19 +107,19 @@
             <state relative-caret-position="378">
               <caret line="21" column="22" lean-forward="false" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
               <folding>
-                <marker date="1515632156819" expanded="true" signature="0:104" ph="/.../" />
-                <marker date="1515632156819" expanded="true" signature="163:170" ph="{}" />
-                <marker date="1515632156819" expanded="true" signature="217:513" ph="{...}" />
+                <marker date="1515634330200" expanded="true" signature="0:104" ph="/.../" />
+                <marker date="1515634330200" expanded="true" signature="163:170" ph="{}" />
+                <marker date="1515634330200" expanded="true" signature="217:618" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Print.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Print.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/escape/Print.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="401">
+              <caret line="21" column="26" lean-forward="false" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -202,8 +197,8 @@
         <option value="$PROJECT_DIR$/src/escape/Position.java" />
         <option value="$PROJECT_DIR$/src/escape/Findpath.java" />
         <option value="$PROJECT_DIR$/src/escape/PrimBuildmaze.java" />
-        <option value="$PROJECT_DIR$/src/escape/Print.java" />
         <option value="$PROJECT_DIR$/src/escape/Buildmaze.java" />
+        <option value="$PROJECT_DIR$/src/escape/Print.java" />
       </list>
     </option>
   </component>
@@ -213,8 +208,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="302" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="155" />
+    <option name="y" value="9" />
     <option name="width" value="1679" />
     <option name="height" value="1028" />
   </component>
@@ -483,12 +479,12 @@
       <workItem from="1515564273826" duration="3891000" />
       <workItem from="1515572390792" duration="2720000" />
       <workItem from="1515588505113" duration="13000" />
-      <workItem from="1515629977811" duration="2354000" />
+      <workItem from="1515629977811" duration="4387000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62008000" />
+    <option name="totallyTimeSpent" value="64041000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -500,8 +496,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="true" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -512,7 +507,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.350057" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21550742" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35591134" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -958,9 +953,9 @@
         <state relative-caret-position="378">
           <caret line="21" column="22" lean-forward="false" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
           <folding>
-            <marker date="1515632156819" expanded="true" signature="0:104" ph="/.../" />
-            <marker date="1515632156819" expanded="true" signature="163:170" ph="{}" />
-            <marker date="1515632156819" expanded="true" signature="217:513" ph="{...}" />
+            <marker date="1515634330200" expanded="true" signature="0:104" ph="/.../" />
+            <marker date="1515634330200" expanded="true" signature="163:170" ph="{}" />
+            <marker date="1515634330200" expanded="true" signature="217:618" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -983,10 +978,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1515632292249" expanded="true" signature="0:104" ph="/.../" />
-            <marker date="1515632292249" expanded="false" signature="130:173" ph="..." />
-            <marker date="1515632292249" expanded="true" signature="223:230" ph="{}" />
-            <marker date="1515632292249" expanded="true" signature="256:7799" ph="{...}" />
+            <marker date="1515634242074" expanded="true" signature="0:104" ph="/.../" />
+            <marker date="1515634242074" expanded="false" signature="130:140" ph="..." />
+            <marker date="1515634242074" expanded="true" signature="10436:10452" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1026,16 +1020,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/escape/Print.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/escape/Escape.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="283">
@@ -1051,8 +1035,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/escape/Buildmaze.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="48" column="32" lean-forward="false" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="32" />
+        <state relative-caret-position="252">
+          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/escape/Print.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="21" column="26" lean-forward="false" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
