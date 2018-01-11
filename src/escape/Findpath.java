@@ -9,6 +9,7 @@ public class Findpath {
             return true;
         }
 
+        /***********定义四个方向**************/
         for (int i = 0; i < 4; i++)
             offset[i] = new Position();
         offset[0].setRow(0);
@@ -26,6 +27,7 @@ public class Findpath {
 
         U.offer(here);
 
+        /***********队列式分支限界法找迷宫出口**************/
         Print p = new Print();
         do {
             p.print();

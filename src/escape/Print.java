@@ -6,6 +6,7 @@ import static escape.Escape.n;
 import static escape.Escape.grid;
 
 public class Print {
+    /***********打印二维数组**************/
     void print() throws InterruptedException {
         for (int i = 0; i <= n + 1; i++) {
                 /*for (int j = 0; j <= n + 1; j++) {

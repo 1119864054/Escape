@@ -6,6 +6,7 @@ import static escape.Escape.*;
 
 public class Buildmaze {
     void buildthemaze() {
+        /***********从键盘读取n和m**************/
         System.out.printf("输入方格行数：");
         Scanner scanner = new Scanner(System.in);
         while (true) {
@@ -31,6 +32,7 @@ public class Buildmaze {
             }
         }
 
+        /***********'.'代表可以前往的地方**************/
         for (char[] ignored : gridmap = new char[n + 2][m + 2]) {
         }
         for (int[] ignored : grid = new int[n + 2][m + 2]) {
@@ -41,6 +43,7 @@ public class Buildmaze {
                 gridmap[i][j] = '.';
             }
 
+        /***********'#'代表墙，无法到达的地方**************/
         for (int i = 0; i <= m + 1; i++) {
             grid[0][i] = grid[n + 1][i] = -2;
             gridmap[0][i] = gridmap[n + 1][i] = '#';
@@ -67,9 +70,10 @@ public class Buildmaze {
             }
         } else {
             PrimBuildmaze prim = new PrimBuildmaze();
-            prim.prim();
+            prim.prim();//利用随机Prim算法产生迷宫，算是自己额外添加的功能
         }
 
+        /***********'S'代表起点，'E'代表终点**************/
         while (true) {
             int sRow = Math.abs(r.nextInt()) % n;
             int sCol = Math.abs(r.nextInt()) % m;
@@ -104,6 +108,7 @@ public class Buildmaze {
             }
         }
 
+        /***********'!'代表岩浆，无法到达的地方**************/
         int source = 1 + Math.abs(r.nextInt()) % 2;
         while (source != 0) {
             int mRow = Math.abs(r.nextInt()) % (n);
